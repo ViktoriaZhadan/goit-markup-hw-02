@@ -1,5 +1,6 @@
 body {
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
 }
 
 ul {
@@ -23,10 +24,14 @@ a {
     overflow: hidden;
 }
 
+.header {
+    font-family: "Raleway", sans-serif,
+}
+
 .header-logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -101,13 +106,15 @@ a {
 .team-title {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
-        text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF
+}
 
 .team-item {}
 
@@ -135,9 +142,9 @@ a {
 .portfolio-title {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
-        text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
@@ -168,9 +175,11 @@ a {
 
 
 .footer-logo {
+    font-family: "Raleway",
+        sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
