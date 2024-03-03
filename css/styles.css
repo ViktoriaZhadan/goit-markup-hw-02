@@ -125,6 +125,11 @@ a {
         cursor: pointer
 }
 
+.hero-buy-btn:hover,
+.hero-buy-btn:focus {
+    background-color: #404bbf;
+}
+
 .features {}
 
 .features-list {}
@@ -242,7 +247,7 @@ a {
     color: #4d5ae5;
 }
 
-.footer-logo span {
+.footer-logo span.adc {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
