@@ -47,17 +47,26 @@ a {
         text-transform: uppercase;
         color: #2e2f42;
 }
+
 .header-menu-list {
     href="./index.html";
 }
 
-.header-menu-item {
+.header-menu-item a {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #404bbf;
+}
+
+.header-menu-item a:hover {
+    color: #404bbf;
+}
+
+.header-menu-item a:focus {
+    color: #404bbf;
 }
 
 .header-address {
@@ -69,13 +78,22 @@ a {
     href="./index.html";
 }
 
-.header-address-item {
+.header-address-item a {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        text-decoration: none;
+}
+
+.header-address-item a:hover {
+    color: #404bbf;
+}
+
+.header-address-item a:focus {
+    color: #404bbf;
 }
 
 .header-address-link {
