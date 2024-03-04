@@ -59,7 +59,7 @@ a {
 
 .header-menu-list {}
 
-.header-menu-link a {
+.header-menu-item a.header-menu-link {
     color: #2e2f42;
     font-weight: 500;
 }
