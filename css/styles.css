@@ -30,7 +30,9 @@ a {
     overflow: hidden;
 }
 
-.header {}
+.header {
+    color: #2e2f42;
+}
 
 .header-navigation {}
 
@@ -78,11 +80,11 @@ a {
     font-style: normal
 }
 
-.header-address-list {
+.header-address-list a.header-address-list {
         line-height: 1.5;
  }
 
-.header-address-item a {
+.header-address-item a.header-address-list {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
