@@ -57,12 +57,11 @@ a {
         color: #2e2f42;
 }
 
-.header-menu-list {
-    color: #2e2f42;
-}
+.header-menu-list {}
 
 .header-menu-link {
     color: #2e2f42;
+    font-weight: 500;
 }
 
 .header-menu-item a.header-link {
