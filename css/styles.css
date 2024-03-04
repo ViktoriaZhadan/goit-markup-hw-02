@@ -61,6 +61,10 @@ a {
     color: #2e2f42;
 }
 
+.header-link{
+    color: #2e2f42;
+}
+
 .header-menu-item a.header-link {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
